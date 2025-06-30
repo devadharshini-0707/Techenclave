@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Application Form</title>
+</head>
+<body>
+
+  <h2>Job Application Form</h2>
+
+  <form>
+
+    <!-- Personal Info -->
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Phone:</label><br>
+    <input type="tel" name="phone" required><br><br>
+
+    <!-- Address -->
+    <label>Address:</label><br>
+    <textarea name="address" rows="3" cols="30" required></textarea><br><br>
+
+    <!-- Education -->
+    <label>Highest Qualification:</label><br>
+    <select name="education" required>
+      <option value="">--select--</option>
+      <option value="highschool">High School</option>
+      <option value="diploma">Diploma</option>
+      <option value="bachelors">Bachelor's</option>
+      <option value="masters">Master's</option>
+      <option value="phd">PhD</option>
+    </select><br><br>
+
+    <!-- Work Experience -->
+    <label>Work Experience:</label><br>
+    <input type="radio" name="experience" value="fresher" required> Fresher<br>
+    <input type="radio" name="experience" value="experienced"> Experienced<br><br>
+
+    <!-- Resume Upload -->
+    <label>Upload Resume:</label><br>
+    <input type="file" name="resume" required><br><br>
+
+    <!-- Skills -->
+    <label>Skills:</label><br>
+    <input type="checkbox" name="skills" value="html"> HTML<br>
+    <input type="checkbox" name="skills" value="css"> CSS<br>
+    <input type="checkbox" name="skills" value="js"> JavaScript<br>
+    <input type="checkbox" name="skills" value="python"> Python<br><br>
+
+    <!-- Availability -->
+    <label>Available From:</label><br>
+    <input type="date" name="availability" required><br><br>
+
+    <!-- Declaration -->
+    <input type="checkbox" name="declaration" required>
+    I confirm that the information given is correct<br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Submit">
+
+  </form>
+
+</body>
+</html>
